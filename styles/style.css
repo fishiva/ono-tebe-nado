@@ -61,4 +61,45 @@
   line-height: 24.3px;
   text-underline-offset: 4px;
 }
-  
+
+.cover{
+  background-image: url(../images/cover.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 757px;
+}
+
+.cover__title{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 165px 50px 237px ;
+}
+
+.aligned-text{
+  color: #FFF;
+  font-size: 100px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  line-height: 115%;
+}
+
+.aligned-text_center{
+  text-align: center;
+  line-height: 100%;
+}
+
+.aligned-text_right{
+  text-align: right;
+  line-height: 100%;
+}
+
+.letter-spacing-extended{
+  letter-spacing: 0.6em;
+}
+
+.no-letter-spacing{
+  letter-spacing: 0;
+}

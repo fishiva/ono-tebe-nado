@@ -68,13 +68,23 @@
   background-size: cover;
   background-position: center;
   height: 757px;
+  position: relative;
+  z-index: 0;
+}
+
+.overlay{
+  position: absolute;
+  opacity: 0.6;
+  background: #000;
+  z-index: -1;
+  inset: 0;
 }
 
 .cover__title{
   display: flex;
   flex-direction: column;
   gap: 20px;
-  padding: 165px 50px 237px ;
+  padding: 165px 50px 135px;
 }
 
 .aligned-text{
@@ -102,4 +112,36 @@
 
 .no-letter-spacing{
   letter-spacing: 0;
+}
+
+.cover__description{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 78px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+
+}
+
+.cover__description-text{
+  color: #FFF;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 28px;
+  text-transform: uppercase;
+  word-spacing: 17.7px;
+}
+
+.bet-button{
+  border: 1px solid #FFF;
+  background-color:transparent;
+  padding: 12px 32px;
+  color: #FFF;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 400;
+  text-transform: uppercase;
+
+
 }

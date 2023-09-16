@@ -20,7 +20,6 @@
     padding-bottom: 45px;
     gap: 32px;
     list-style: circle;
-    
 }
 
 .header__links-list-item{
@@ -36,7 +35,6 @@
 
 .header__link_active .header__link{
     text-decoration: none;
-;
 }
 
 .header__links-list-item_no-bullit{
@@ -280,4 +278,72 @@
   color: #000;
   font-size: 20px;
   font-weight: 400;
+}
+
+.footer{
+  padding: 0px 50px 90px;
+  display: flex;
+  gap: 356px;
+}
+
+.footer_address{
+  display: flex;
+  justify-content: flex-start;
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 24.3px;
+  text-underline-offset: 4px;
+  max-width: 240px;
+}
+
+.footer__menu-list{
+  list-style: none;
+  text-align: center;
+  min-width: 149px;
+}
+
+.footer__menu-list-item{
+  color: #000;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.footer__menu-link{
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.footer__menu-link_active .footer__menu-link{
+  text-decoration: none;
+}
+
+.footer__social-list{
+  display: flex;
+  min-height: 48px;
+  gap: calc(120px - 48px - 24px);
+}
+
+.footer__social-list-item{
+  list-style: none;
+}
+
+.footer__social-link{
+  min-width: 48px;
+  min-height: 48px;
+}
+
+.footer__social-icon_youtube{
+  display: block;
+  background-image: url(../images/yt.svg);
+}
+
+.footer__social-icon_vk{
+  display: block;
+  background-image: url(../images/vk.svg);
+}
+
+.footer__social-icon_pinterest{
+  display: block;
+  background-image: url(../images/pinterest.svg);
 }
